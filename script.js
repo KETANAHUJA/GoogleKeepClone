@@ -19,10 +19,9 @@ const addNewNote = (text = '') => {
         <button class="delete">
             <i class="fas fa-trash-alt"></i>
         </button>
-
     </div>
     <div class="main ${text?"":"hidden"}"></div>
-    <textarea class="${text?"hidden":""}"></textarea> `;
+    <textarea class="t-area ${text?"hidden":""}"></textarea> `;
 
     note.insertAdjacentHTML('afterbegin',htmlData);
     //geetting referesnces

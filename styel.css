@@ -14,13 +14,13 @@ header {
   color: #282936;
 }
 header h1 {
-  font-weight: 400;
+  font-weight: 600;
   margin-left: 2.5rem;
   padding-top: 12px;
 }
 .btn-div {
   position: fixed;
-  top: 4.5rem;
+  top: 3rem;
   right: 0.8rem;
   border: none;
   border-radius: 3px;
@@ -42,7 +42,7 @@ header h1 {
 }
 
 .note {
-  background-color: #fff;
+  background-color: red;
   margin: 70px 20px;
   height: 180px;
   width: 320px;
@@ -56,6 +56,10 @@ header h1 {
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
+}
+.main{
+    padding: 20px;
+    background-color: rgb(136, 231, 231);
 }
 
 .note .operation button{
